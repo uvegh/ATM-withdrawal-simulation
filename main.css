@@ -1,0 +1,66 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding: 0; margin: 0;}
+.container{  display: grid; grid-template-columns: 2fr; text-align: center; justify-content: space-between;background-image: url(./img/bank\ bgimg.jpg);background-repeat: no-repeat; background-size: cover; height: 100%; color: rgb(91, 209, 209);}
+
+
+
+.col{ justify-content: center; border-radius: 10px solid black;  border: 1px solid  rgb(9, 75, 75);; width: 100%; font-size: 30px;}
+.col:hover{background-color: aqua;transition: all 800ms ease; color: rgb(26, 59, 59);}
+.container a{text-decoration: none; color: aqua;margin-left: 10px; margin-right: 10px;}
+.container a:hover{ padding: 10px;  transition: all 700ms ease;}
+
+/* insercard */
+.container1{  display: grid; grid-template-columns: 2fr; text-align: center; justify-content: space-between;background-image: url(./img/bank\ bgimg.jpg);background-repeat: no-repeat; background-size: cover; height: 100%; color: rgb(91, 209, 209);}
+.container1 img{ justify-items: center; margin: auto;border-radius: 20px; margin-top:20px; transition: all ;}
+.container1 p{color: brown; font-size: 30px;}
+.container1 input{width: 230px; padding: 5px; border-radius: 10px; text-align: center; font-size: 20px;}
+.pinBtn a{ border: 1px  solid black; padding: 10px 30px; border-radius: 10px ;background-color: rgb(62, 150, 150); font-size: 20px;  text-decoration: none;  color: aliceblue;}
+.pinBtn a:hover{background-color: transparent; transition: all ease-in 500ms;}
+
+/* ChooseAmount */
+
+.container2{   text-align: center; justify-content: space-between;background-image: url(./img/bank\ bgimg.jpg);background-repeat: no-repeat; background-size: cover; height: 100%; color: rgb(91, 209, 209);}
+.amountCont{ width:80%;display: grid; grid-template-columns: auto auto; grid-gap: 50px; margin: auto; cursor: pointer;margin-top: 50px;}
+
+.amountCont .col:hover{background-color: aqua;transition: all 800ms ease; color: rgb(26, 59, 59); padding: 10px; }
+.amountCont a{ text-decoration: none; color: aqua;}
+
+/* printReceipt */
+.container3{ text-align: center; justify-content: space-between;background-image: url(./img/bank\ bgimg.jpg);background-repeat: no-repeat; background-size: cover; height: 100%; color: rgb(91, 209, 209);}
+.links{margin:auto; }
+.links a{ border: 1px  solid black; padding: 10px 30px; border-radius: 10px ;background-color: rgb(62, 150, 150); font-size: 20px;  text-decoration: none;  color: aliceblue; }
+.links a:hover{background-color: transparent; transition: all ease 900ms;}
+
+/* thank you */
+.lds-circle {
+    display: inline-block;
+    transform: translateZ(1px);
+    margin: auto;
+   
+  }
+  .lds-circle > div {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    background: aqua;
+    animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  @keyframes lds-circle {
+    0%, 100% {
+      animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+    }
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(1800deg);
+      animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+    100% {
+      transform: rotateY(3600deg);
+    }
+  }
+  /* other */
+  
+  
